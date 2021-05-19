@@ -17,16 +17,17 @@
     "postpublish": "pinst --enable",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "test:coverage": "jest --coverage --colors",
     "test:ci": "jest --runInBand",
     "commit": "cz",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "husky install",
     "changelog": "conventional-changelog -p react -i CHANGELOG.md -s -r 0",
-    "release":"lerna version --conventional-commits --yes",
+    "new-version":"lerna version --conventional-commits --yes",
     "diff":"lerna diff",
-    "test:lerna":"lerna run test"
+    "test:lerna":"lerna run test",
+    "bootstrap": "lerna bootstrap --use-workspaces"
+
   },
   "repository": {
     "type": "git",
