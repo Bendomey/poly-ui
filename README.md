@@ -1,7 +1,9 @@
-# Poly UI
+<p align="center">
+  <strong size="20">POLY UI</strong>
+</p>
 
 <p align="center">
-  <strong>A design system 😋 that has an opinionated API ❤️, modular and accessible cool ui components for faster development 🥂.</strong>
+  <strong>A design system 😋 with an opinionated API ❤️, modular and accessible cool ui components for faster development 🥂.</strong>
 </p>
 
 
