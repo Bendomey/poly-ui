@@ -1,0 +1,36 @@
+{
+  "name": "@poly-ui/button",
+  "version": "0.1.0",
+  "description": "A react button component",
+  "keywords": [
+    "button",
+    "button-group",
+    "react",
+    "component",
+    "clickable"
+  ],
+  "author": "Benjamin Domey <domeybenjamin1@gmail.com>",
+  "homepage": "https://github.com/Bendomey/poly-ui/tree/main/packages/button#readme",
+  "license": "MIT",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bendomey/poly-ui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Bendomey/poly-ui/issues"
+  }
+}
