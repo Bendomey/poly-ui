@@ -26,8 +26,8 @@
     "new-version":"lerna version --conventional-commits --yes",
     "diff":"lerna diff",
     "test:lerna":"lerna run test",
-    "bootstrap": "lerna bootstrap --use-workspaces"
-
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "build": "lerna run build --no-private --stream"
   },
   "repository": {
     "type": "git",
