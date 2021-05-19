@@ -14,11 +14,11 @@
   "license": "MIT",
   "main": "index.ts",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "access": "public"

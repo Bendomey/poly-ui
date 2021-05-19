@@ -28,5 +28,10 @@ commit messages are standardized:
     6. y or n for whether this change affects an open issue, if positive you will be prompted to enter the issue number.
 5. Your commit message has now been created, you may push to your fork and open a pull request (read below for further instructions).
 
+## Pull Requests
+1. Fork the repo and create your branch from `main`.
+2. If you've added code that should be tested, add some test examples.
+3. Ensure to describe your pull request.
+
 
 Thanks for showing interest to contribute to Poly UI ❤️, you rock!
