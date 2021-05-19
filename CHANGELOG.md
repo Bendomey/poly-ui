@@ -1,5 +1,7 @@
 ## 1.0.0 (2021-05-19)
 
+* chore(deps): added commitlint ([03e7788](https://github.com/Bendomey/poly-ui/commit/03e7788))
+* Fix: add run to the script invoker ([a318491](https://github.com/Bendomey/poly-ui/commit/a318491))
 * feat: added husky ([09e9261](https://github.com/Bendomey/poly-ui/commit/09e9261))
 * added eslint and storey book ([a15ad5f](https://github.com/Bendomey/poly-ui/commit/a15ad5f))
 * added jest config ([3b501c8](https://github.com/Bendomey/poly-ui/commit/3b501c8))

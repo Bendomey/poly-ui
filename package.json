@@ -12,6 +12,7 @@
     "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage --colors",
     "test:ci": "jest --runInBand",
+    "commit": "cz",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "husky install",
@@ -73,7 +74,9 @@
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.3",
     "babel-loader": "^8.2.2",
+    "commitizen": "^4.2.4",
     "conventional-changelog": "^3.1.24",
+    "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.23.2",
@@ -84,5 +87,15 @@
     "jest": "^26.6.3",
     "lerna": "^4.0.0",
     "pinst": "^2.1.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
   }
 }
